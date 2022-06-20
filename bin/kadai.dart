@@ -15,22 +15,6 @@ void main(List<String> args) {
   );
   var result = '';
 
-  // final start = PuzzleBoard([
-    // [5, 7, 8],
-    // [3, 4, 0],
-    // [2, 6, 1],
-  // ], depth: 0);
-
-  // final elementList = [0, 1, 2, 3, 4, 5, 6, 7, 8];
-  // var counter = 0;
-  // for (final value in elementList) {
-    // final currentGrid = start.findGridByValue(value);
-    // final goalGrid = goal.findGridByValue(value);
-    // counter +=
-        // (currentGrid.x - goalGrid.x).abs() + (currentGrid.x - goalGrid.x).abs();
-  // }
-  // print(counter);
-
   while (count < 100) {
     final start = PuzzleBoard.random();
     if (start.canSolve(goal)) {

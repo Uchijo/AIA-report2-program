@@ -1,2 +1,4 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+## usage
+
+1. `$ dart run`
+2. csv format file will be shown on the console.
